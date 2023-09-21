@@ -21,7 +21,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 flex flex-col justify-center items-center gap-8 text-white py-4">
+    <footer className="w-full bg-gray-800 flex flex-col justify-center items-center gap-8 text-white py-4 absolute bottom-0">
       <div className="container mx-auto flex justify-center">
         <a
           href="https://www.linkedin.com/in/fernandohenrique2001/"

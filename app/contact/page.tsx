@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import InputForms from "@/components/InputForms";
 import Navbar from "@/components/Navbar";
 
-export default function Find() {
+export default function Contact() {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full h-screen flex flex-col items-center">
       <Navbar />
       <div className="flex items-center flex-col w-1/2 h-80 mt-40 mb-20 shadow-md text-#160b30">
         <h1 className="text-3xl mt-50 mb-20">Entre em contato</h1>

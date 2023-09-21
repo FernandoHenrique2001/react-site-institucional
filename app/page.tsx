@@ -6,9 +6,9 @@ import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import apple from "../public/apple.webp";
 
-export default function Find() {
+export default function Home() {
   return (
-    <div className="flex flex-col bg-black">
+    <div className="flex flex-col bg-black relative">
       <Navbar />
       <div
         className="w-full h-screen text-white flex justify-center items-start flex-col bg-fixed opacity-40 bg-center bg-cover"
@@ -51,9 +51,9 @@ export default function Find() {
         </div>
       </div>
 
-      <div className="h-85vh bg-white p-12" id="about">
-        <div className="h-50vh py-12 px-4 md:px-24 flex flex-col items-center pb-16 bg-white">
-          <div className="flex flex-col items-center justify-center py-12 h-50vh gap-8 bg-purple-800 text-white">
+      <div className="h-85vh bg-white p-12  mb-16" id="about">
+        <div className="h-50vh py-12 px-24 flex flex-col items-center pb-16 bg-white">
+          <div className="flex flex-col items-center justify-center py-12 px-24 h-50vh gap-8 bg-purple-800 text-white">
             <h1>Quem sou</h1>
             <div className="flex-shrink w-50 h-2 bg-purple-800"></div>
             <p>
